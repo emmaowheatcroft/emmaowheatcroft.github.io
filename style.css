@@ -58,6 +58,7 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
 /* Footer */
@@ -122,5 +123,5 @@ footer {
 section:hover { /* This makes it highlight when hovered over */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
-    transition: all 0.3s ease;
+    
 } 
