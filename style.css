@@ -44,6 +44,11 @@ nav ul li a:hover {
     color: #f4b400;
 }
 
+nav ul li a.active {
+    color: #f4b400; /* Gold colour */
+    border-bottom: 2px solid #f4b400; /* Underline effect */
+}
+
 /* Sections */
 section {
     padding: 60px 20px;
@@ -66,20 +71,56 @@ footer {
 
 .section-blue {
     background-color: #e0f7fa;
-    padding: 20px 0;
+    padding: 60px 20px; /* Match padding to your section settings */
+    margin: 20px auto;  /* Center it and give it space */
+    max-width: 900px;   /* Match your normal sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
 .section-green {
     background-color: #e8f5e9;
-    padding: 20px 0;
+    padding: 60px 20px; /* Match padding to your section settings */
+    margin: 20px auto;  /* Center it and give it space */
+    max-width: 900px;   /* Match your normal sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .section-yellow {
     background-color: #fffde7;
-    padding: 20px 0;
+    padding: 60px 20px; /* Match padding to your section settings */
+    margin: 20px auto;  /* Center it and give it space */
+    max-width: 900px;   /* Match your normal sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .section-pink {
     background-color: #fce4ec;
-    padding: 20px 0;
+    padding: 60px 20px; /* Match padding to your section settings */
+    margin: 20px auto;  /* Center it and give it space */
+    max-width: 900px;   /* Match your normal sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.btn { /* This is for my get in touch button currently */
+    display: inline-block;
+    background-color: #f4b400;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0a800;
+}
+
+section:hover { /* This makes it highlight when hovered over */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+} 
