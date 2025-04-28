@@ -103,6 +103,7 @@ footer {
     max-width: 900px;   /* Match your normal sections */
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
 }
 
 
@@ -115,6 +116,8 @@ footer {
         text-decoration: none;
         font-weight: bold;
         transition: background-color 0.3s ease, transform 0.2s ease;
+        position: relative;  /* Add this if it's not already there */
+    z-index: 9999;  /* Make sure it's on top */
     }
     
     .btn:hover {
