@@ -60,13 +60,13 @@ section {
     transition: all 0.3s ease;
 }
 
-<style>
+
 #hero {
     background-color: #C8A2C8 !important; /* Lilac shade */
     padding: 2rem; /* adds spacing */
     color: #000;   /* ensures text contrast */
 }
-</style>
+
 
 
 .section-blue {
